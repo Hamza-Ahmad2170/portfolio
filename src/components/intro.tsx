@@ -36,13 +36,16 @@ export default function Intro() {
       </p>
       <div className="text-center">
         <a
-          type="button"
+          href="./Hamza Ahmad.pdf"
+          download="Hamza Ahmad"
           className="border-active hover:bg-active inline-flex cursor-pointer items-center justify-between gap-4 overflow-hidden rounded-[30px] border-1 pl-2 text-lg font-semibold tracking-widest transition-colors duration-[.4s] ease-in-out"
         >
           <span className="py-2 pl-2">View Resume</span>
+
           <span className="bg-active inline-block rounded-full p-4 transition-colors duration-500">
             <FaDownload className="size-4" />
           </span>
+
           <span className="sr-only">Download Resume</span>
         </a>
       </div>
