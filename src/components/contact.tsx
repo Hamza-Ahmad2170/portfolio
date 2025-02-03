@@ -30,7 +30,7 @@ export default function Contact() {
               Location
               <br />
             </span>
-            Hamza Ahmad
+            Pakistan, Faisalabad
           </p>
           <p>
             <span className="flex items-center justify-center gap-2">
