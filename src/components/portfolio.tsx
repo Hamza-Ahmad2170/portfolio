@@ -15,8 +15,8 @@ import reduxBank from "@/assets/image/portfolio/redux bank.jpeg";
 const projects = [
   {
     name: "React Pizza",
-    repo: "https://github.com/hamza-ahmad/react-pizza",
-    url: "https://react-pizza.vercel.app/",
+    repo: "https://github.com/Hamza-Ahmad2170/11fast-react-pizza",
+    url: "https://heroic-torrone-6212b4.netlify.app/",
     image: pizza,
     techStack: [
       {

@@ -48,7 +48,7 @@ export default function Skill() {
   return (
     <section>
       <h2 className="text-center text-5xl font-semibold sm:text-[4rem]">
-        My <span className="text-active">SKILLS</span>
+        MY <span className="text-active">SKILLS</span>
       </h2>
       <div className="mx-auto flex w-full max-w-6xl flex-wrap items-stretch justify-center gap-8 gap-y-10 px-4 pt-12">
         {skills.map((skill) => (
