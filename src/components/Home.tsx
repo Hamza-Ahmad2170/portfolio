@@ -16,7 +16,7 @@ export default function Home() {
             alt="robot"
             priority
             loading="eager"
-            className="h-auto w-auto place-self-center"
+            className=" place-self-center"
           />
           <Intro />
         </div>
