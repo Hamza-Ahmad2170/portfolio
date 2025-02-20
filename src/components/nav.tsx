@@ -68,7 +68,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <nav className="fixed right-0 bottom-0 left-0 z-50 translate-x-2 bg-[#2a2e35] md:top-3/6 md:right-4 md:bottom-auto md:left-auto md:-translate-y-1/2 md:bg-transparent 2xl:-translate-x-1/2">
+    <nav className="fixed right-0 bottom-0 left-0 z-50 translate-x-2 bg-[#2a2e35] md:top-3/6 md:right-4 md:bottom-auto md:left-auto md:-translate-y-1/2 md:bg-transparent xl:-translate-x-1/2">
       <ul className="flex justify-evenly gap-4 py-4 md:flex-col md:py-0">
         {navItems.map((item) => (
           <li key={item.name} className="group relative">
