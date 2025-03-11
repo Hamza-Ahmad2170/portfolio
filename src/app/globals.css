@@ -48,6 +48,10 @@
   }
 }
 
+.color-change:hover .color-grid {
+  display: grid;
+}
+
 .nav-shadow {
   box-shadow: 3px 3px 25px var(--color-active);
 }

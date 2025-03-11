@@ -29,12 +29,12 @@ export default function ColorChange() {
   }, [currentColor]);
 
   return (
-    <div className="group relative">
+    <div className="color-change relative">
       <button type="button">
         <FaGear className="fill-active size-6 animate-spin" />
         <span className="sr-only">Change color</span>
       </button>
-      <div className="absolute hidden min-h-12 min-w-20 grid-cols-4 items-center justify-center gap-2 pl-2 group-hover:grid">
+      <div className="color-grid absolute hidden min-h-12 min-w-20 grid-cols-4 items-center justify-center gap-2 pl-2">
         {colors.map((color) => (
           <button
             key={color}
